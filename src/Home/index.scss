@@ -1,0 +1,364 @@
+.ClientLogo {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1130px;
+}
+.ClientLogoSld
+{
+    .carousel-control-next, .carousel-control-prev{
+        display: none;
+    }
+}
+
+.Logosgroup {
+    position: relative;
+}
+
+.LogosGraphic {
+    position: absolute;
+    left: 0;
+    top: -125px;
+}
+
+.mySwiper {
+    margin: 114px 0;position: relative;overflow: hidden;padding-bottom: 50px;left:70px;
+    .swiper-slide{max-width: 350px;min-width: 350px;}
+}
+.swiper-slide {
+    padding: 50px 0;
+}
+.swiper-slide-prev > .SwiperSlideBlock{
+    box-shadow: 0px 41px 89px 0px rgba(0, 0, 0, 0.1019607843);
+}
+
+.swiper-slide-active > .SwiperSlideBlock{
+    box-shadow: 0px 41px 89px 0px rgba(0, 0, 0, 0.1019607843);
+}
+.SwiperSlideBlock {
+    min-width: 350px;
+    margin: 0 0px;
+    box-shadow: none;
+    min-height: 443px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    padding: 64px;
+    box-sizing: border-box;
+    max-width: 350px;
+    img{max-width: 64px;display: block;margin: 0 auto;}
+    h4{
+        font-size: 28px;
+        line-height: 33px;
+        color: #191825;
+        padding: 64px 0 25px 0px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: rgb(25 24 37 / 50%);
+        font-weight: 400;
+    }
+}
+.swiper-wrapper {
+    display: flex; 
+
+
+}
+.ServiceLeft{
+    h5{
+        text-align: left;
+        font-size: 44px;
+        line-height: 52px;
+        color: #191825;
+        padding: 0px 0 25px 0px;
+        font-weight: 700;
+    }
+    h3{
+        text-align: left;
+        font-size: 23px;
+        line-height: 27px;
+        color: #F85E9F;
+        padding: 64px 0 10px 0px;
+        font-weight: 700;
+        letter-spacing: 3px;text-transform: uppercase;
+    }
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: rgb(25 24 37 / 50%);
+        font-weight: 400;
+        text-align: left; 
+    }
+}
+.TravelPointBlockLEft{
+    position: absolute;
+    left: 0px;
+    max-width: 792px;
+}
+.completed-counter {
+    border: 1px solid #1918251A;
+    border-radius: 32px;
+    width: 205px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    h2{ 
+        font-size: 35px;
+        line-height: 42px;
+        color: #FF5722; 
+        font-weight: 700;  
+        padding: 0 0 10px 0;
+    }
+    h6{
+        font-size: 18px;
+        line-height: 28px;
+        color: #191825;
+        font-weight: 400; 
+    }
+}
+.CounterBlockMain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 70px 0 0 0;
+    & > span{
+        background: #FACD49;
+        width: 112px;
+        height: 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: -10%;
+        border-radius: 100%;
+        top: -70px;
+    }
+}
+
+.NewsletterInner {
+    background: #fffbf0;
+    border-radius: 32px;
+    padding: 128px 64px 128px 64px;
+    width: 100%;
+    
+    h1{
+        text-align: center;
+        font-size: 55px;
+        line-height: 66px;
+        color: #191825; 
+        font-weight: 700; 
+    }
+    p{
+        font-size: 23px;
+        line-height: 27px;
+        color: #F85E9F;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 30px;
+    }
+}
+
+.Neslettrblk {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 67px 0 0 0;
+
+    img{   position: absolute;
+        left: 30px;
+        top: 35px;}
+    input{width: 100%;max-width: 685px;border-radius: 32px;background-color: #fff;border: 0px;
+        font-size: 23px;
+        line-height: 28px;
+        color: #191825;
+        min-height: 96px;
+        font-weight: 700; 
+        padding: 0 0 0 80px;
+    }
+    button{background-color: #5D50C6;
+        width: 100%;
+        max-width: 233px;
+        height: 96px;
+        max-height: 96px;
+        font-size: 23px;
+        line-height: 27px;
+        font-weight: 700;
+        color: #ffffff;
+        border: 0;
+        border-radius: 32px;}
+    
+}
+
+.NewsGraphics {
+    position: absolute;
+    left: -30px;
+    top: -75px;
+}
+
+.SubscribeNewsletter {
+    margin: 100px 0;
+}
+.bannerBlock {
+    // position: relative;
+    padding-top: 80px;
+    .container{
+        max-width: 1134px;
+
+    }
+   &:after {
+        content: "";
+        background: rgb(255,87,34);
+        background: linear-gradient(130deg, rgba(255,87,34,1) 0%, rgba(250,205,73,0.005) 40%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -110px;
+        left: -20%;
+        right: 0;
+        z-index: -9;
+    }
+}
+.BannerLeft {
+    text-align: left;
+    .textwithicon {
+        box-shadow: 0px 1px 5px -4px #00001A;
+        background: #fff;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 225px;
+        border-radius: 32px;
+        font-size: 14px;
+        line-height: 18px;
+        color: #F85E9F;
+        font-weight: 700;
+        padding: 0 25px;
+        cursor: pointer;
+    }
+    h1{
+        font-size: 69px;
+        line-height: 83px;
+       color: #000000;
+        font-weight: 700;
+        margin: 0;
+        padding: 40px 0;
+        span{ color: #F85E9F;}
+    }
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: rgb(25 24 37 / 50%);
+        font-weight: 400;
+        text-align: left; 
+    }
+    .bannerCTC{
+        
+        button:first-child{
+            background-color: #5D50C6;
+            border-radius: 32px;
+            width: 140px;
+            margin-top: 25px;
+            margin-right: 20px;
+            height: 49px;
+            font-size: 14px;
+            line-height: 16px;
+            color: #EEEEEE;
+            border: 0px;
+            font-weight: 700;
+            box-shadow: 1px 6px 32px -8px rgb(0 0 0 / 50%);
+        }
+        button:last-child{
+            background-color: #ffffff;
+            border-radius: 32px;
+            width: 180px;
+            margin-top: 25px;
+            margin-right: 20px;
+            height: 56px;
+            font-size: 14px;
+            line-height: 16px;
+            color: #222831;
+            border: 1px solid #EEEEEE;
+            font-weight: 700; 
+        }
+    }
+
+}
+.BannerRight  img {
+    position: relative;
+    right: 0px;
+}
+.ServiceBlock .container{
+    overflow: hidden;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .BannerLeft h1{font-size: 40px;line-height: 48px;}
+    .ServiceLeft h5, .NewsletterInner h1{font-size: 40px; line-height: 44px;}
+    .BannerRight  {padding-top: 5%;}
+    .BannerRight  img{width: 100%;}
+    .LogosGraphic {display: none;}
+    .ClientLogo{flex-wrap: wrap;}
+    .ClientLogo li{text-align: center;margin: 0 auto 20px;}
+    .mySwiper{margin: 0 auto ;overflow: unset;}
+    .SwiperSlideBlock{width: 100%; min-width: 280px !important;}
+    .TravelPointBlockLEft { width: 100%; max-width: 70%;  }
+    .TravelPointBlock .ServiceLeft { margin-top: 100%; }
+      .NewsletterInner { padding: 70px 10px; }
+      .Neslettrblk {  flex-wrap: wrap;justify-content: center; row-gap: 15px;}
+      .CounterBlockMain > span{right: 0%;}
+      .RightNavbarLink{width: 100%;}
+      .swiper-slide{max-width: 350px;min-width: none;}
+      .swiper-wrapper{transform: translate3d(-433px, 0px, 0px) !important;}
+    
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .CstmNav{padding-left: 10% !important;}
+    .CstmNav > a {
+        padding-right: 10px !important;
+      }
+      .BannerRight img{margin-top: 100px;width: 100%;max-width: 790px;}
+      .LogosGraphic{display: none;}
+      .ClientLogo{flex-wrap: wrap;li{margin-bottom: 20px; width: 32%;    text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;}}
+    .mySwiper{margin: 20px 0;}
+    .TravelPointBlockLEft { width: 100%; max-width: 550px;  }
+    .TravelPointBlock .ServiceLeft { margin-top: 100%; }
+    .swiper-slide{max-width: 350px;min-width: none;}
+    
+}
+@media only screen and (min-width:992px) and (max-width:1150px) {
+    .TravelPointBlockLEft { width: 100%; max-width: 550px;  }
+    .BannerRight img{width: 100%;max-width: 790px;}
+    .ClientLogo{max-width: 1100px;}
+    .CounterBlockMain > span {
+        right: 0;
+        top: -90px;
+      }
+
+}
+
+@media only screen and (max-width:1399px) {
+    .BannerRight img{width: 100%;}
+    .TravelPointBlockLEft { width: 100%; max-width: 792px;  }
+    
+}
+@media only screen and (min-width:1400px) {
+    .BannerRight img{width: auto;}
+}
